@@ -20,6 +20,6 @@ def test_hard(browser_size):
     registration_page.submit()
 
     # check form
-    registration_page.should_registered_user_with('Ivan Ivanov', 'iavn@yandex.ru', 'Male', '1234567890',
+    registration_page.should_registered_user_with('Ivan Ivanov', 'ivan@yandex.ru', 'Male', '1234567890',
                                                   '05 January,1992', 'Economics', 'Sports', 'cat.jpg', 'godovikova 9',
                                                   'NCR Delhi')
